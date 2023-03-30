@@ -9,7 +9,8 @@ namespace Api.FreeSide.Datas.Repository.Contact
 {
     public interface IRepositoryUser
     {
-      
+       // Task<User> GetEtudiantByNameAsync(string name);
+
 
     }
 }

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api.FreeSide.Business.Model\Api.FreeSide.Business.Model.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Business.Service.Contact\Api.FreeSide.Business.Service.Contact.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Business.Service\Api.FreeSide.Business.Service.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Datas.Repository.Contact\Api.FreeSide.Datas.Repository.Contact.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Datas.Repository\Api.FreeSide.Datas.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

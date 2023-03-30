@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Api.FreeSide.Business.Service.Contact/1.0.0": {
+        "runtime": {
+          "Api.FreeSide.Business.Service.Contact.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Api.FreeSide.Business.Service.Contact/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

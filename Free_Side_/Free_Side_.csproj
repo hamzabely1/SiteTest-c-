@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api.FreeSide.Business.Model\Api.FreeSide.Business.Model.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Business.Service.Contact\Api.FreeSide.Business.Service.Contact.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Business.Service\Api.FreeSide.Business.Service.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Datas.Context.Contact\Api.FreeSide.Datas.Context.Contact.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Datas.Context\Api.FreeSide.Datas.Context.csproj" />
+    <ProjectReference Include="..\Api.FreeSide.Ioc\Api.FreeSide.Ioc.csproj" />
+  </ItemGroup>
+
+</Project>

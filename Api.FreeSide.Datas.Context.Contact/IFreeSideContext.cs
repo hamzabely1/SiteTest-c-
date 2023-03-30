@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Api.FreeSide.Datas.Context.Contact
 {
-    public class IFreeSideContext
+    public interface IFreeSideContext : IDbContext
     {
         DbSet<Address> Addresses { get; set; }
 

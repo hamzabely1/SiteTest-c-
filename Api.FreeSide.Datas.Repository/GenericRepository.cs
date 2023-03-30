@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace Api.FreeSide.Datas.Repository
 {
 
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
 
         protected readonly IFreeSideContext _ifreeSideContext;
