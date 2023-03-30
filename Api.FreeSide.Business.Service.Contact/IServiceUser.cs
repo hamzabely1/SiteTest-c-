@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Api.FreeSide.Business.Service.Contact
 {
-    internal interface IServiceUser 
+    public interface IServiceUser 
     {
     }
 }
