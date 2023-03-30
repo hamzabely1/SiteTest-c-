@@ -1,0 +1,15 @@
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\bin\Debug\net6.0\Api.FreeSide.Datas.Repository.exe
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\bin\Debug\net6.0\Api.FreeSide.Datas.Repository.deps.json
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\bin\Debug\net6.0\Api.FreeSide.Datas.Repository.runtimeconfig.json
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\bin\Debug\net6.0\Api.FreeSide.Datas.Repository.dll
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\bin\Debug\net6.0\Api.FreeSide.Datas.Repository.pdb
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.csproj.AssemblyReference.cache
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.AssemblyInfoInputs.cache
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.AssemblyInfo.cs
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.csproj.CoreCompileInputs.cache
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.dll
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\refint\Api.FreeSide.Datas.Repository.dll
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.pdb
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\Api.FreeSide.Datas.Repository.genruntimeconfig.cache
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Repository\obj\Debug\net6.0\ref\Api.FreeSide.Datas.Repository.dll

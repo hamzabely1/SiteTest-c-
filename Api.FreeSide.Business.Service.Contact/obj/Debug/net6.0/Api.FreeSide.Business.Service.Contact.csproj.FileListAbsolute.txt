@@ -1,0 +1,5 @@
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Business.Service.Contact\obj\Debug\net6.0\Api.FreeSide.Business.Service.Contact.csproj.AssemblyReference.cache
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Business.Service.Contact\obj\Debug\net6.0\Api.FreeSide.Business.Service.Contact.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Business.Service.Contact\obj\Debug\net6.0\Api.FreeSide.Business.Service.Contact.AssemblyInfoInputs.cache
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Business.Service.Contact\obj\Debug\net6.0\Api.FreeSide.Business.Service.Contact.AssemblyInfo.cs
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Business.Service.Contact\obj\Debug\net6.0\Api.FreeSide.Business.Service.Contact.csproj.CoreCompileInputs.cache
