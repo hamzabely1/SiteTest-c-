@@ -92,7 +92,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj": {
+                "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

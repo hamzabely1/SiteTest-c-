@@ -1105,6 +1105,9 @@
       "Api.FreeSide.Business.Service.Contact/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Api.FreeSide.Business.Model": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Api.FreeSide.Business.Service.Contact.dll": {}
         },

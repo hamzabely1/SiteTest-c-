@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace Free_Side_.Controllers
    
 {
+   
 
 
-        
-        
-    
+
+
 }
