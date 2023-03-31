@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Api.FreeSide.Business.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Api.FreeSide.Business.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.FreeSide.Business.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Api.FreeSide.Business.Model/1.0.0": {
+      "type": "project",
+      "path": "../Api.FreeSide.Business.Model/Api.FreeSide.Business.Model.csproj",
+      "msbuildProject": "../Api.FreeSide.Business.Model/Api.FreeSide.Business.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Api.FreeSide.Business.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj": {
+              "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

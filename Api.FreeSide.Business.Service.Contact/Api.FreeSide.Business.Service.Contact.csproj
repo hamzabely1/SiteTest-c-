@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Api.FreeSide.Business.Model\Api.FreeSide.Business.Model.csproj" />
+  </ItemGroup>
+
 </Project>
