@@ -22,10 +22,11 @@ namespace Api.FreeSide.Business.Service
                 UserDateBirth = (DateTime)user.DateBirth,
                 UserEmail = user.Email,
                 UserPassword = user.Password
-             
+
             };
 
             return userRead;
 
         }
+    }
 }

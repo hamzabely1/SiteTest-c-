@@ -13,11 +13,9 @@ namespace Api.FreeSide.Business.Service.Contact
 
 
 
-        Task<List<UserReadDTO>> GetListUserAsync();
+       Task<List<UserReadDTO>> GetListUserAsync();
 
-        /*Task<UserReadDTO> GetUserByMailAsync(string mailEtudiant);*/
-
-        Task<UserAddDTO> CreateUserAsync(UserAddDTO UserToAdd);
+       // Task<UserAddDTO> CreateUserAsync(UserAddDTO UserToAdd);
 
 
     }
