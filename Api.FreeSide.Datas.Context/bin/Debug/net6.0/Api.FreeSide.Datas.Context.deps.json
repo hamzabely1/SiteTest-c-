@@ -13,7 +13,8 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.4",
-          "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "Api.FreeSide.Datas.Context.Contact": "1.0.0.0"
         },
         "runtime": {
           "Api.FreeSide.Datas.Context.dll": {}
@@ -730,6 +731,14 @@
         "runtime": {
           "Api.FreeSide.Datas.Entities.dll": {}
         }
+      },
+      "Api.FreeSide.Datas.Context.Contact/1.0.0.0": {
+        "runtime": {
+          "Api.FreeSide.Datas.Context.Contact.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1231,6 +1240,11 @@
     },
     "Api.FreeSide.Datas.Entities/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Api.FreeSide.Datas.Context.Contact/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

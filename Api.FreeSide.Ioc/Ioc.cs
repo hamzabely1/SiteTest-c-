@@ -30,7 +30,7 @@ namespace Api.FreeSide.Ioc
         {
             var connectionString = configuration.GetConnectionString("BddConnection");
 
-            services.AddDbContext<freeSideDBContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
+            services.AddDbContext<IFreeSideContext,freeSideDBContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
                 .LogTo(Console.WriteLine, LogLevel.Information)
                 .EnableSensitiveDataLogging()
                 .EnableDetailedErrors());

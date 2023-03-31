@@ -8,18 +8,8 @@ namespace Free_Side_.Controllers
    
 {
 
-    [Route("api/[controller]")]
-    [ApiController]
-    public class UserController : Controller
-    {
-        private IServiceUser _serviceUser;
-
-        public UserController(IServiceUser serviceEtudiant)
-        {
-            _serviceUser = serviceEtudiant;
-        }
 
         
         
-    }
+    
 }

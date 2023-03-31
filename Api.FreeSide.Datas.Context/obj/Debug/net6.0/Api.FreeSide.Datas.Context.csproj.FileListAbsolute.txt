@@ -15,3 +15,5 @@ C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Co
 C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Context\obj\Debug\net6.0\Api.FreeSide.Datas.Context.pdb
 C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Context\obj\Debug\net6.0\Api.FreeSide.Datas.Context.genruntimeconfig.cache
 C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Context\obj\Debug\net6.0\ref\Api.FreeSide.Datas.Context.dll
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Context\bin\Debug\net6.0\Api.FreeSide.Datas.Context.Contact.dll
+C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Context\bin\Debug\net6.0\Api.FreeSide.Datas.Context.Contact.pdb

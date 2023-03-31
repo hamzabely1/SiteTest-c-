@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Api.FreeSide.Datas.Context.Contact;
 using Api.FreeSide.Datas.Entities.Model;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace Api.FreeSide.Datas.Context;
 
-public partial class freeSideDBContext : DbContext
+public partial class freeSideDBContext : DbContext,IFreeSideContext
 {
 
 
