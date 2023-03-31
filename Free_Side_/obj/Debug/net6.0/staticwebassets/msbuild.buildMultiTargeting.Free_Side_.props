@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Free_Side_.props" />
+</Project>

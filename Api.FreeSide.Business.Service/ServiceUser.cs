@@ -20,7 +20,7 @@ namespace Api.FreeSide.Business.Service
             _repositoryUser = repositoryUser;
         }
 
-        public async Task<UserReadDTO> CreateUserAsync(UserAddDTO userToRead)
+       /* public async Task<UserReadDTO> CreateUserAsync(UserAddDTO userToRead)
         {
             User newUser = new User()
             {
@@ -38,8 +38,21 @@ namespace Api.FreeSide.Business.Service
 
             //utiliser le readDTO
             return Mapper.TransformUserToDTO(user);
-        }
+        }*/
 
+       public async Task<List<UserReadDTO>> GetListUserAsync()
+        {
+            var users = await _repositoryUser.GetAllAsync().ConfigureAwait(false);
+
+            List<UserReadDTO> userDtos = new();
+
+            foreach (var user in users)
+            {
+               userDtos.Add(Mapper.TransformUserToDTO(user));
+            }
+
+            return userDtos;
+        }
 
 
     }

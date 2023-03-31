@@ -16,10 +16,7 @@ namespace Api.FreeSide.Datas.Repository
         {
         }
 
-            public async Task<User> GetUserByEmailAsync(string email)
-            {
-                return await _ifreeSideContext.Users.FirstOrDefaultAsync(e => e.Email == email).ConfigureAwait(false);
-            }
+          
 
         
     }
