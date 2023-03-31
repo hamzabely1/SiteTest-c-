@@ -18,10 +18,7 @@ namespace Free_Side_.Controllers
     {
         _serviceUser = serviceUser;
     }
-        /*
-         * Get: api/Etudiants
-         * get all students
-        */
+       
         [HttpGet()]
         [ProducesResponseType(typeof(IEnumerable<UserReadDTO>), 200)]
         [ProducesResponseType(typeof(StatusCodeResult), 500)]
