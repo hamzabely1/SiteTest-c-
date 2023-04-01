@@ -20,9 +20,9 @@ namespace Api.FreeSide.Datas.Repository
 
         private readonly DbSet<T> _table;
 
-        public GenericRepository(IFreeSideContext _ifreeSideContext)
+        public GenericRepository(IFreeSideContext ifreeSideContext)
         {
-            _ifreeSideContext = _ifreeSideContext;
+            _ifreeSideContext = ifreeSideContext;
             _table = _ifreeSideContext.Set<T>();
         }
 

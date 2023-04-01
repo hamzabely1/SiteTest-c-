@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Api.FreeSide.Business.Model.Item
 {
-    public class ItemReadDTO
+    public class ItemReadDTO : ItemBaseDTO
     {
+        public int ItemId { get; set; }
+
     }
 }

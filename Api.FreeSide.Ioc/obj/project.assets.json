@@ -3458,11 +3458,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Ioc\\Api.FreeSide.Ioc.csproj",
+      "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Ioc\\Api.FreeSide.Ioc.csproj",
       "projectName": "Api.FreeSide.Ioc",
-      "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Ioc\\Api.FreeSide.Ioc.csproj",
+      "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Ioc\\Api.FreeSide.Ioc.csproj",
       "packagesPath": "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Ioc\\obj\\",
+      "outputPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3484,20 +3484,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj": {
-              "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj"
+            "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj": {
+              "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Business.Model\\Api.FreeSide.Business.Model.csproj"
             },
-            "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Service.Contact\\Api.FreeSide.Business.Service.Contact.csproj": {
-              "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Service.Contact\\Api.FreeSide.Business.Service.Contact.csproj"
+            "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Business.Service.Contact\\Api.FreeSide.Business.Service.Contact.csproj": {
+              "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Business.Service.Contact\\Api.FreeSide.Business.Service.Contact.csproj"
             },
-            "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Service\\Api.FreeSide.Business.Service.csproj": {
-              "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Business.Service\\Api.FreeSide.Business.Service.csproj"
+            "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Business.Service\\Api.FreeSide.Business.Service.csproj": {
+              "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Business.Service\\Api.FreeSide.Business.Service.csproj"
             },
-            "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj": {
-              "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj"
+            "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj": {
+              "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj"
             },
-            "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository\\Api.FreeSide.Datas.Repository.csproj": {
-              "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository\\Api.FreeSide.Datas.Repository.csproj"
+            "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository\\Api.FreeSide.Datas.Repository.csproj": {
+              "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository\\Api.FreeSide.Datas.Repository.csproj"
             }
           }
         }

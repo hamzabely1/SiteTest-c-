@@ -1,83 +1,32 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Api.FreeSide.Business.Model.Item;
+using Api.FreeSide.Business.Model.User;
+using Api.FreeSide.Business.Service.Contact;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Free_Side_.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ItemController : Controller
+
     {
-        // GET: ItemController
-        public ActionResult Index()
+        private readonly IServiceItem _serviceItem;
+        public ItemController(IServiceItem serviceItem)
         {
-            return View();
+            _serviceItem = serviceItem;
         }
 
-        // GET: ItemController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet()]
+        [ProducesResponseType(typeof(IEnumerable<ItemReadDTO>), 200)]
+        [ProducesResponseType(typeof(StatusCodeResult), 500)]
+        [ProducesResponseType(typeof(StatusCodeResult), 400)]
+        public async Task<ActionResult> ItemListAsync()
         {
-            return View();
-        }
+            var item = await _serviceItem.GetListItemAsync().ConfigureAwait(false);
 
-        // GET: ItemController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: ItemController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ItemController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ItemController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ItemController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ItemController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            return Ok(item);
         }
     }
+
 }
