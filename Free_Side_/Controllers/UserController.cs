@@ -14,11 +14,11 @@ namespace Free_Side_.Controllers
 
     {
         private readonly IServiceUser _serviceUser;
-    public UserController(IServiceUser serviceUser)
-    {
-        _serviceUser = serviceUser;
-    }
-       
+        public UserController(IServiceUser serviceUser)
+        {
+            _serviceUser = serviceUser;
+        }
+
         [HttpGet()]
         [ProducesResponseType(typeof(IEnumerable<UserReadDTO>), 200)]
         [ProducesResponseType(typeof(StatusCodeResult), 500)]
@@ -29,6 +29,25 @@ namespace Free_Side_.Controllers
 
             return Ok(user);
         }
+
+        /// <summary>
+        /// get 1
+        /// </summary>
+        /// <param name="departementName"></param>
+        /// <returns></returns>
+        [HttpPost()]
+        [ProducesResponseType(typeof(UserReadDTO), 200)]
+        [ProducesResponseType(typeof(StatusCodeResult), 500)]
+        [ProducesResponseType(typeof(StatusCodeResult), 400)]
+        public async Task<ActionResult> Post(UserAddDTO userToRead)
+        {
+            var user = await _serviceUser.CreateUserAsync(userToRead).ConfigureAwait(false);
+
+            return Ok(user);
+        }
+
+
+
     }
 
 

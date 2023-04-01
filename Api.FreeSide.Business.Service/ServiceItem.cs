@@ -1,4 +1,6 @@
-﻿using Api.FreeSide.Business.Service.Contact;
+﻿using Api.FreeSide.Business.Model.Item;
+using Api.FreeSide.Business.Service.Contact;
+using Api.FreeSide.Datas.Repository;
 using Api.FreeSide.Datas.Repository.Contact;
 using System;
 using System.Collections.Generic;
@@ -16,6 +18,20 @@ namespace Api.FreeSide.Business.Service
         public ServiceItem(IRepositoryItem repositoryItem)
         {
             _repositoryItem = repositoryItem;
+        }
+
+        public async Task<List<ItemReadDTO>> GetListItemAsync()
+        {
+            var items = await _repositoryItem.GetAllAsync().ConfigureAwait(false);
+
+            List<ItemReadDTO> itemDtos = new();
+
+            foreach (var item in items)
+            {
+                itemDtos.Add(Mapper.TransformItemToDTO(item));
+            }
+
+            return itemDtos;
         }
     }
 }

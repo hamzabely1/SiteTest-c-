@@ -12,3 +12,17 @@ C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.En
 C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.pdb
 C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.genruntimeconfig.cache
 C:\Users\hamza.belyahiaoui\Desktop\ecole\freeSide\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\ref\Api.FreeSide.Datas.Entities.dll
+C:\Users\hamza.belyahiaoui\Source\Repos\FreeSide\Api.FreeSide.Datas.Entities\bin\Debug\net6.0\Api.FreeSide.Datas.Entities.deps.json
+C:\Users\hamza.belyahiaoui\Source\Repos\FreeSide\Api.FreeSide.Datas.Entities\bin\Debug\net6.0\Api.FreeSide.Datas.Entities.runtimeconfig.json
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\bin\Debug\net6.0\Api.FreeSide.Datas.Entities.dll
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\bin\Debug\net6.0\Api.FreeSide.Datas.Entities.pdb
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.csproj.AssemblyReference.cache
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.AssemblyInfoInputs.cache
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.AssemblyInfo.cs
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.csproj.CoreCompileInputs.cache
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.dll
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\refint\Api.FreeSide.Datas.Entities.dll
+C:\Users\hamza.belyahiaoui\source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.pdb
+C:\Users\hamza.belyahiaoui\Source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\Api.FreeSide.Datas.Entities.genruntimeconfig.cache
+C:\Users\hamza.belyahiaoui\Source\Repos\FreeSide\Api.FreeSide.Datas.Entities\obj\Debug\net6.0\ref\Api.FreeSide.Datas.Entities.dll

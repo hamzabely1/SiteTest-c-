@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K4TmcKkjnmpyYxjlpKshFMGfj4MuIR4k/+3p38VxxQ+cyUODifM3qG8HbvhJcqhym1PSLnvjEXI64ZrBVApFbQ==",
+  "dgSpecHash": "P9eS+m4LHO8+fDq4Fhl/OE3Lcc0Rv48PEy9fGYkB46dVtdhVTbcpk8E/iaJ07ZqJrqdgIOXRCtk/HOMpSlvuEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Ioc\\Api.FreeSide.Ioc.csproj",
+  "projectFilePath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Ioc\\Api.FreeSide.Ioc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

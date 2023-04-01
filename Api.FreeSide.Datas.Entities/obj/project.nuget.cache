@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HptYtVbhBRmQddnKK8N84su85m6tTxgN8tVJSXNJP+39/FUqmEDzFLpvTU1fYZhiucV9/K23YvYIzJbEhz3jfg==",
+  "dgSpecHash": "R55BJ6Ti/9L0ZhY3t7JlYoJHFIjClKdxF3tDfT5QVdlp5Qpku0P477HTIgADPDTmsOHJUBLst5Jthb8wDCxGnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj",
+  "projectFilePath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
