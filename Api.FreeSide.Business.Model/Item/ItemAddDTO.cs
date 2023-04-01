@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Api.FreeSide.Business.Model.Item
 {
-    public class ItemAddDTO
+    public class ItemAddDTO : ItemBaseDTO
     {
 
     }

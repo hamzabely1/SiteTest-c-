@@ -9,13 +9,16 @@ namespace Api.FreeSide.Business.Service.Contact
 {
     public interface IServiceUser
     {
-
-
-
-
        Task<List<UserReadDTO>> GetListUserAsync();
 
-       // Task<UserAddDTO> CreateUserAsync(UserAddDTO UserToAdd);
+       Task<UserReadDTO> CreateUserAsync(UserAddDTO UserToAdd);
+
+       Task<UserReadDTO> GetUnUserAsync(int id);
+
+       
+       Task<UserReadDTO> DeleteUserAsync(int id);
+
+
 
 
     }

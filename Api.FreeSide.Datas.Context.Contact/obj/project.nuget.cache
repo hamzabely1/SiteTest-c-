@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LEGLqdWrjeP3+2ykYJyUQmNHhNtWHSE/vu7W3QolAKIXtxdcGPlJ9D6gn1zXOnFyPXgATAWZmWefZrhmZfsItg==",
+  "dgSpecHash": "ksANo846qTvlTvu637W6+LPF+e9EhFvqupt6lsfGR04A/JiqhS0SIWMuFsXmrRA3syTrQJEd4zfKiPmU5Pi1Pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj",
+  "projectFilePath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
     "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512",

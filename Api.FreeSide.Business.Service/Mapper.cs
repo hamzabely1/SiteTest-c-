@@ -1,4 +1,5 @@
-﻿using Api.FreeSide.Business.Model.User;
+﻿using Api.FreeSide.Business.Model.Item;
+using Api.FreeSide.Business.Model.User;
 using Api.FreeSide.Datas.Entities.Model;
 using Microsoft.SqlServer.Server;
 using System;
@@ -26,6 +27,22 @@ namespace Api.FreeSide.Business.Service
             };
 
             return userRead;
+
+        }
+
+        public static ItemReadDTO TransformItemToDTO(Item item)
+        {
+            ItemReadDTO itemRead = new ItemReadDTO()
+            {
+                ItemName = item.Name,
+                ItemDescription = item.Description,
+                ItemCreaTime = (DateTime)item.CreateTime,
+                ItemImage = item.Image,
+                ItemPrice = (float)item.Price,
+                ItemStock = (int)item.Stock,
+            };
+
+            return itemRead;
 
         }
     }
