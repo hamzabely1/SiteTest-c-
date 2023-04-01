@@ -13,16 +13,16 @@ using System.Threading.Tasks;
 namespace Api.FreeSide.Datas.Repository
 {
 
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
 
         protected readonly IFreeSideContext _ifreeSideContext;
 
         private readonly DbSet<T> _table;
 
-        public GenericRepository(IFreeSideContext _ifreeSideContext)
+        public GenericRepository(IFreeSideContext ifreeSideContext)
         {
-            _ifreeSideContext = _ifreeSideContext;
+            _ifreeSideContext = ifreeSideContext;
             _table = _ifreeSideContext.Set<T>();
         }
 

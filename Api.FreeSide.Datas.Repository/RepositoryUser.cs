@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Api.FreeSide.Datas.Context.Contact;
 using Api.FreeSide.Datas.Entities.Model;
 using Api.FreeSide.Datas.Repository.Contact;
+using Microsoft.EntityFrameworkCore;
 
 namespace Api.FreeSide.Datas.Repository
 {
@@ -14,5 +15,10 @@ namespace Api.FreeSide.Datas.Repository
         public RepositoryUser(IFreeSideContext _ifreeSideContext) : base(_ifreeSideContext)
         {
         }
+
+          
+
+        
     }
 }
+

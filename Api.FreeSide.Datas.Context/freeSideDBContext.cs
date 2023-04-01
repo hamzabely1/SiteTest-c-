@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using Api.FreeSide.Datas.Context.Contact;
 using Api.FreeSide.Datas.Entities.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.FreeSide.Datas.Entities;
 
-public partial class freeSideDBContext : DbContext
+namespace Api.FreeSide.Datas.Context;
+
+public partial class freeSideDBContext : DbContext,IFreeSideContext
 {
-    public freeSideDBContext()
-    {
-    }
+
 
     public freeSideDBContext(DbContextOptions<freeSideDBContext> options)
         : base(options)
@@ -28,7 +28,7 @@ public partial class freeSideDBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseMySql("server=localhost;database=freeside;uid=root", Microsoft.EntityFrameworkCore.ServerVersion.Parse("5.7.36-mysql"));
+        => optionsBuilder.UseMySql("server=localhost;database=freeside;uid=root", ServerVersion.Parse("5.7.36-mysql"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
