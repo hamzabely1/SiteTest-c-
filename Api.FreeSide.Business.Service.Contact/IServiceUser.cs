@@ -13,6 +13,11 @@ namespace Api.FreeSide.Business.Service.Contact
 
        Task<UserReadDTO> CreateUserAsync(UserAddDTO UserToAdd);
 
+       Task<UserReadDTO> GetUnUserAsync(int id);
+
+       
+       Task<UserReadDTO> DeleteUserAsync(int id);
+
 
 
 

@@ -45,8 +45,16 @@ namespace Api.FreeSide.Datas.Repository
 
             return elementAdded.Entity;
         }
-        public async Task<T> UpdateElementAsync(T element)
+        public async Task<T> UpdateElementAsync(T element, int Id)
+
         {
+            var existingEntity = _ifreeSideContext.Items.Local.SingleOrDefault(p => p.Id == Id);
+
+            if (existingEntity != null)
+            {
+                _ifreeSideContext.Entry(existingEntity).State = EntityState.Detached;
+            }
+
             var elementUpdated = _table.Update(element);
             await _ifreeSideContext.SaveChangesAsync().ConfigureAwait(false);
 

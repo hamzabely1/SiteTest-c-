@@ -18,7 +18,7 @@ namespace Api.FreeSide.Datas.Repository.Contact
         Task<T> CreateElementAsync(T element);
 
 
-        Task<T> UpdateElementAsync(T element);
+        Task<T> UpdateElementAsync(T element, int Id);
 
         Task<T> DeleteElementAsync(T element);
 

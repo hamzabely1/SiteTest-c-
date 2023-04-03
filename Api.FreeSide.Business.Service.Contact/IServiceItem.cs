@@ -12,6 +12,12 @@ namespace Api.FreeSide.Business.Service.Contact
     {
         Task<List<ItemReadDTO>> GetListItemAsync();
 
+        Task<ItemReadDTO> CreateItemAsync(ItemAddDTO ItemToAdd);
 
+        Task<ItemReadDTO> GetUnItemAsync(int id);
+
+        Task<ItemReadDTO> DeleteItemAsync(int id);
+
+        Task<ItemReadDTO> UpdateItemAsync(ItemAddDTO itemTooRead);
     }
 }

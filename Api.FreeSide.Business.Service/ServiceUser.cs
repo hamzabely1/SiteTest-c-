@@ -1,6 +1,8 @@
-﻿using Api.FreeSide.Business.Model.User;
+﻿using Api.FreeSide.Business.Model.Item;
+using Api.FreeSide.Business.Model.User;
 using Api.FreeSide.Business.Service.Contact;
 using Api.FreeSide.Datas.Entities.Model;
+using Api.FreeSide.Datas.Repository;
 using Api.FreeSide.Datas.Repository.Contact;
 using System;
 using System.Collections.Generic;
@@ -41,7 +43,6 @@ namespace Api.FreeSide.Business.Service
         /// <summary>
         /// post user
         /// </summary>
-        /// <param name="etudiantToRead"></param>
         /// <returns></returns>
         public async Task<UserReadDTO> CreateUserAsync(UserAddDTO userToRead)
         {
@@ -63,6 +64,43 @@ namespace Api.FreeSide.Business.Service
             //utiliser le readDTO
             return Mapper.TransformUserToDTO(user);
         }
+
+        /// <summary>
+        /// get Un user
+        /// </summary>
+        /// <param name="userToRead"></param>
+        /// <returns></returns>
+        public async Task<UserReadDTO> GetUnUserAsync(int id)
+        {
+            
+            var user = await _repositoryUser.GetByKeyAsync(id).ConfigureAwait(false);
+
+            //utiliser le readDTO
+            return Mapper.TransformUserToDTO(user);
+        }
+
+
+
+        /// <summary>
+        /// delete user
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<UserReadDTO> DeleteUserAsync(int id)
+        {
+
+            User userId = await _repositoryUser.GetByKeyAsync(id).ConfigureAwait(false);
+
+
+            var user = await _repositoryUser.DeleteElementAsync(userId).ConfigureAwait(false);
+
+            //utiliser le readDTO
+            return Mapper.TransformUserToDTO(user);
+        }
+
+      
+
+
 
 
     }

@@ -9,6 +9,5 @@ namespace Api.FreeSide.Datas.Repository.Contact
 {
     public interface IRepositoryItem : IGenericRepository<Item>
     {
-
     }
 }
