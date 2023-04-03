@@ -1,83 +1,103 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Api.FreeSide.Business.Model.Item;
+using Api.FreeSide.Business.Model.User;
+using Api.FreeSide.Business.Service;
+using Api.FreeSide.Business.Service.Contact;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Free_Side_.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ItemController : Controller
+
     {
-        // GET: ItemController
-        public ActionResult Index()
+
+        /// <summary>
+        /// get
+        /// </summary>
+        private readonly IServiceItem _serviceItem;
+        public ItemController(IServiceItem serviceItem)
         {
-            return View();
+            _serviceItem = serviceItem;
         }
 
-        // GET: ItemController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet()]
+        [ProducesResponseType(typeof(IEnumerable<ItemReadDTO>), 200)]
+        [ProducesResponseType(typeof(StatusCodeResult), 500)]
+        [ProducesResponseType(typeof(StatusCodeResult), 400)]
+        public async Task<ActionResult> ItemListAsync()
         {
-            return View();
+            var item = await _serviceItem.GetListItemAsync().ConfigureAwait(false);
+
+            return Ok(item);
         }
 
-        // GET: ItemController/Create
-        public ActionResult Create()
+
+
+        /// <summary>
+        /// post
+        /// </summary>
+        /// <param name="departementName"></param>
+        /// <returns></returns>
+        [HttpPost()]
+        [ProducesResponseType(typeof(ItemReadDTO), 200)]
+        [ProducesResponseType(typeof(StatusCodeResult), 500)]
+        [ProducesResponseType(typeof(StatusCodeResult), 400)]
+        public async Task<ActionResult> Post(ItemAddDTO itemTooRead)
         {
-            return View();
+            var item = await _serviceItem.CreateItemAsync(itemTooRead).ConfigureAwait(false);
+
+            return Ok(item);
         }
 
-        // POST: ItemController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        /// <summary>
+        /// get un
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("{id}")]
+        [ProducesResponseType(typeof(ItemReadDTO), 200)]
+        [ProducesResponseType(typeof(StatusCodeResult), 500)]
+        [ProducesResponseType(typeof(StatusCodeResult), 400)]
+        public async Task<ActionResult> GetUn(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var item = await _serviceItem.GetUnItemAsync(id).ConfigureAwait(false);
+
+            return Ok(item);
         }
 
-        // GET: ItemController/Edit/5
-        public ActionResult Edit(int id)
+        /// <summary>
+        /// delete
+        /// </summary>
+        /// <returns></returns>
+        [HttpDelete("{id}")]
+        [ProducesResponseType(typeof(ItemReadDTO), 200)]
+        [ProducesResponseType(typeof(StatusCodeResult), 500)]
+        [ProducesResponseType(typeof(StatusCodeResult), 400)]
+        public async Task<ActionResult> Delete(int id)
         {
-            return View();
+            var item = await _serviceItem.DeleteItemAsync(id).ConfigureAwait(false);
+
+            return Ok(item);
         }
 
-        // POST: ItemController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+
+        /// <summary>
+        /// update
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut("{id}")]
+        [ProducesResponseType(typeof(ItemReadDTO), 200)]
+        [ProducesResponseType(typeof(StatusCodeResult), 500)]
+        [ProducesResponseType(typeof(StatusCodeResult), 400)]
+        public async Task<ActionResult> Update(int id)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var item = await _serviceItem.UpdateItemAsync(id).ConfigureAwait(false);
+
+            return Ok(item);
         }
 
-        // GET: ItemController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
 
-        // POST: ItemController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
+
 }

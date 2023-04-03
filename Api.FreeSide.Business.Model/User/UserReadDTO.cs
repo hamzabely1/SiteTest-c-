@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Api.FreeSide.Business.Model.User
 {
-    public class UserReadDTO
+    public class UserReadDTO : UserBaseDTO
     {
+        public int UserId { get; set; }
+
     }
 }

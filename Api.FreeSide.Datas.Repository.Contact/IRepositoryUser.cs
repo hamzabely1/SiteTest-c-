@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Api.FreeSide.Datas.Repository.Contact
 {
-    public interface IRepositoryUser
+    public interface IRepositoryUser : IGenericRepository<User>
     {
        // Task<User> GetEtudiantByNameAsync(string name);
 

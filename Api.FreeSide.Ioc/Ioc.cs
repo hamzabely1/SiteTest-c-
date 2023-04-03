@@ -21,11 +21,21 @@ namespace Api.FreeSide.Ioc
         public static IServiceCollection ConfigureInjectionDependencyRepository(this IServiceCollection services)
         {
             services.AddScoped<IRepositoryUser, RepositoryUser>();
+            services.AddScoped<IRepositoryItem, RepositoryItem>();
          
 
             return services;
         }
+        public static IServiceCollection ConfigureInjectionDependencyService(this IServiceCollection services)
+        {
+            // Injections des Dépendances
+            // - Service
 
+            services.AddScoped<IServiceUser, ServiceUser>();
+            services.AddScoped<IServiceItem, ServiceItem>();
+
+            return services;
+        }
         public static IServiceCollection ConfigureDBContext(this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration.GetConnectionString("BddConnection");
@@ -34,16 +44,6 @@ namespace Api.FreeSide.Ioc
                 .LogTo(Console.WriteLine, LogLevel.Information)
                 .EnableSensitiveDataLogging()
                 .EnableDetailedErrors());
-
-            return services;
-        }
-
-        public static IServiceCollection ConfigureInjectionDependencyService(this IServiceCollection services)
-        {
-            // Injections des Dépendances
-            // - Service
-
-            services.AddScoped<IServiceUser, ServiceUser>();
 
             return services;
         }

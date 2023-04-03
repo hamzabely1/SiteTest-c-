@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Api.FreeSide.Business.Model.User
 {
-    public class UserAddDTO
+    public class UserAddDTO : UserBaseDTO
     {
     }
 }

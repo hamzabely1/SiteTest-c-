@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj": {}
+    "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj": {
+    "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj",
+        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj",
         "projectName": "Api.FreeSide.Datas.Context.Contact",
-        "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj",
+        "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\Api.FreeSide.Datas.Context.Contact.csproj",
         "packagesPath": "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\obj\\",
+        "outputPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Context.Contact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj": {
-                "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj"
+              "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj": {
+                "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj"
               },
-              "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj": {
-                "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj"
+              "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj": {
+                "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj": {
+    "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj",
         "projectName": "Api.FreeSide.Datas.Entities",
-        "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj",
+        "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj",
         "packagesPath": "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\obj\\",
+        "outputPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -153,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj": {
+    "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj",
+        "projectUniqueName": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj",
         "projectName": "Api.FreeSide.Datas.Repository.Contact",
-        "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj",
+        "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\Api.FreeSide.Datas.Repository.Contact.csproj",
         "packagesPath": "C:\\Users\\hamza.belyahiaoui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\obj\\",
+        "outputPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Repository.Contact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,8 +182,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj": {
-                "projectPath": "C:\\Users\\hamza.belyahiaoui\\Desktop\\ecole\\freeSide\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj"
+              "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj": {
+                "projectPath": "C:\\Users\\hamza.belyahiaoui\\source\\Repos\\FreeSide\\Api.FreeSide.Datas.Entities\\Api.FreeSide.Datas.Entities.csproj"
               }
             }
           }
