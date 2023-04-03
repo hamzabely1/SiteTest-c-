@@ -43,7 +43,6 @@ namespace Api.FreeSide.Business.Service
         /// <summary>
         /// post user
         /// </summary>
-        /// <param name="etudiantToRead"></param>
         /// <returns></returns>
         public async Task<UserReadDTO> CreateUserAsync(UserAddDTO userToRead)
         {
@@ -98,6 +97,10 @@ namespace Api.FreeSide.Business.Service
             //utiliser le readDTO
             return Mapper.TransformUserToDTO(user);
         }
+
+      
+
+
 
 
     }

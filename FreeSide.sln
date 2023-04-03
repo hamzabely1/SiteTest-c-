@@ -27,15 +27,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{DEB40B27-E5F9-4462-A922-263EE9E4641E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.FreeSide.Business.Service", "Api.FreeSide.Business.Service\Api.FreeSide.Business.Service.csproj", "{C30877AD-CCAD-4452-8076-024F5B8203EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.FreeSide.Business.Service", "Api.FreeSide.Business.Service\Api.FreeSide.Business.Service.csproj", "{C30877AD-CCAD-4452-8076-024F5B8203EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.FreeSide.Business.Service.Contact", "Api.FreeSide.Business.Service.Contact\Api.FreeSide.Business.Service.Contact.csproj", "{D2DEE208-AA43-4994-94B6-3DAEF855DBC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.FreeSide.Business.Service.Contact", "Api.FreeSide.Business.Service.Contact\Api.FreeSide.Business.Service.Contact.csproj", "{D2DEE208-AA43-4994-94B6-3DAEF855DBC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.FreeSide.Business.Model", "Api.FreeSide.Business.Model\Api.FreeSide.Business.Model.csproj", "{3187D66C-7077-458E-9F52-AF601936335C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.FreeSide.Business.Model", "Api.FreeSide.Business.Model\Api.FreeSide.Business.Model.csproj", "{3187D66C-7077-458E-9F52-AF601936335C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Free_Side_", "Free_Side_\Free_Side_.csproj", "{EDC27467-D5BD-4635-A443-6E7DE240CD99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Free_Side_", "Free_Side_\Free_Side_.csproj", "{EDC27467-D5BD-4635-A443-6E7DE240CD99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.FreeSide.Ioc", "Api.FreeSide.Ioc\Api.FreeSide.Ioc.csproj", "{6BA27D60-F364-43B1-A492-9D58B209ECBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.FreeSide.Ioc", "Api.FreeSide.Ioc\Api.FreeSide.Ioc.csproj", "{6BA27D60-F364-43B1-A492-9D58B209ECBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -94,14 +94,26 @@ namespace Api.FreeSide.Business.Service
         }
 
         /// <summary>
-        /// delete 
+        /// update
         /// </summary>
         /// <returns></returns>
-        public async Task<ItemReadDTO> UpdateItemAsync(int id)
+        public async Task<ItemReadDTO> UpdateItemAsync(ItemAddDTO itemToRead)
         {
 
-            Item itemId = await _repositoryItem.GetByKeyAsync(id).ConfigureAwait(false);
-            var item = await _repositoryItem.UpdateElementAsync(itemId).ConfigureAwait(false);
+            Item newItem = new Item()
+            {
+                Id = itemToRead.ItemId,
+                Name = itemToRead.ItemName,
+                Price = itemToRead.ItemPrice,
+                Stock = itemToRead.ItemStock,
+                CreateTime = itemToRead.ItemCreaTime,
+                Description = itemToRead.ItemDescription,
+                Image = itemToRead.ItemImage
+            };
+                
+            Item item = await _repositoryItem.UpdateElementAsync(newItem, newItem.Id).ConfigureAwait(false);
+
+
 
             //utiliser le readDTO
             return Mapper.TransformItemToDTO(item);

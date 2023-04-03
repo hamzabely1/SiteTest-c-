@@ -18,8 +18,6 @@ namespace Api.FreeSide.Business.Service.Contact
 
         Task<ItemReadDTO> DeleteItemAsync(int id);
 
-       Task<ItemReadDTO>UpdateItemAsync(int id);
-
-
+        Task<ItemReadDTO> UpdateItemAsync(ItemAddDTO itemTooRead);
     }
 }

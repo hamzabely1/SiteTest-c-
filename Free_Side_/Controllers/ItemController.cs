@@ -2,6 +2,7 @@
 using Api.FreeSide.Business.Model.User;
 using Api.FreeSide.Business.Service;
 using Api.FreeSide.Business.Service.Contact;
+using Api.FreeSide.Datas.Entities.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,12 +24,9 @@ namespace Free_Side_.Controllers
         }
 
         [HttpGet()]
-        [ProducesResponseType(typeof(IEnumerable<ItemReadDTO>), 200)]
-        [ProducesResponseType(typeof(StatusCodeResult), 500)]
-        [ProducesResponseType(typeof(StatusCodeResult), 400)]
-        public async Task<ActionResult> ItemListAsync()
+        public async Task<ActionResult> Get()
         {
-            var item = await _serviceItem.GetListItemAsync().ConfigureAwait(false);
+            List<ItemReadDTO> item = await _serviceItem.GetListItemAsync().ConfigureAwait(false);
 
             return Ok(item);
         }
@@ -38,7 +36,6 @@ namespace Free_Side_.Controllers
         /// <summary>
         /// post
         /// </summary>
-        /// <param name="departementName"></param>
         /// <returns></returns>
         [HttpPost()]
         [ProducesResponseType(typeof(ItemReadDTO), 200)]
@@ -56,12 +53,9 @@ namespace Free_Side_.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("{id}")]
-        [ProducesResponseType(typeof(ItemReadDTO), 200)]
-        [ProducesResponseType(typeof(StatusCodeResult), 500)]
-        [ProducesResponseType(typeof(StatusCodeResult), 400)]
         public async Task<ActionResult> GetUn(int id)
         {
-            var item = await _serviceItem.GetUnItemAsync(id).ConfigureAwait(false);
+            ItemReadDTO item = await _serviceItem.GetUnItemAsync(id).ConfigureAwait(false);
 
             return Ok(item);
         }
@@ -71,12 +65,9 @@ namespace Free_Side_.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpDelete("{id}")]
-        [ProducesResponseType(typeof(ItemReadDTO), 200)]
-        [ProducesResponseType(typeof(StatusCodeResult), 500)]
-        [ProducesResponseType(typeof(StatusCodeResult), 400)]
         public async Task<ActionResult> Delete(int id)
         {
-            var item = await _serviceItem.DeleteItemAsync(id).ConfigureAwait(false);
+            ItemReadDTO item = await _serviceItem.DeleteItemAsync(id).ConfigureAwait(false);
 
             return Ok(item);
         }
@@ -86,13 +77,14 @@ namespace Free_Side_.Controllers
         /// update
         /// </summary>
         /// <returns></returns>
-        [HttpPut("{id}")]
+        ///    
+        [HttpPatch()]
         [ProducesResponseType(typeof(ItemReadDTO), 200)]
         [ProducesResponseType(typeof(StatusCodeResult), 500)]
         [ProducesResponseType(typeof(StatusCodeResult), 400)]
-        public async Task<ActionResult> Update(int id)
+        public async Task<ActionResult> Update(ItemAddDTO itemTooRead)
         {
-            var item = await _serviceItem.UpdateItemAsync(id).ConfigureAwait(false);
+            var item = "up";
 
             return Ok(item);
         }

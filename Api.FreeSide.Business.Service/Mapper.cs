@@ -39,9 +39,8 @@ namespace Api.FreeSide.Business.Service
                 ItemCreaTime = (DateTime)item.CreateTime,
                 ItemImage = item.Image,
                 ItemPrice = (float)item.Price,
-                ItemStock = (int)item.Stock,
+                ItemStock = (int)item.Stock
             };
-
             return itemRead;
 
         }

@@ -76,12 +76,5 @@ namespace Free_Side_.Controllers
 
             return Ok(user);
         }
-
-
-
-
-
     }
-
-
 }

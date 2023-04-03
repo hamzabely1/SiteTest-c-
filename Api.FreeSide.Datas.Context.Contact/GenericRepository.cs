@@ -45,8 +45,10 @@ namespace Api.FreeSide.Datas.Repository
 
             return elementAdded.Entity;
         }
-        public async Task<T> UpdateElementAsync(T element)
+        public async Task<T> UpdateElementAsync(T element,int Id)
         {
+            
+
             var elementUpdated = _table.Update(element);
             await _ifreeSideContext.SaveChangesAsync().ConfigureAwait(false);
 
@@ -78,7 +80,7 @@ namespace Api.FreeSide.Datas.Repository
         }
 
 
-        public void Update(T obj)
+        public void Update(T obj,int Id)
         {
             throw new NotImplementedException();
         }
